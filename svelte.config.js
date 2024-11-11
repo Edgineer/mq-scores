@@ -7,7 +7,7 @@ const config = {
     adapter: adapter({
       pages: 'docs',
       assets: 'docs',
-      fallback: '200.html'
+      fallback: null
     }),
     paths: {
       // Set base path for GitHub Pages
