@@ -11,7 +11,7 @@ const config = {
     }),
     paths: {
       // Set base path for GitHub Pages
-      base: "/mq-scores"
+	  base: process.env.NODE_ENV === "production" ? "/mq-scores" : ""
     },
     prerender: {
       entries: ['*']  // Prerender all routes
