@@ -11,8 +11,7 @@ const config = {
     }),
     paths: {
       // Set base path for GitHub Pages
-	  base: process.env.NODE_ENV === "production" ? "/mq-scores" : "",
-	  assets: process.env.NODE_ENV === "production" ? "https://edgineer.github.io/mq-scores" : ""
+	  base: process.env.NODE_ENV === "production" ? "/mq-scores" : ""
     },
     prerender: {
       entries: ['*']  // Prerender all routes
